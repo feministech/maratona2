@@ -254,3 +254,121 @@ footer p {
     color: #FFFFFF;
     padding-top: 13px;
 }
+
+@media (max-width: 1023px) { 
+
+    body {
+        width: 100%;
+       
+    }
+
+    header {
+        background-color:#92CFD5;
+        height: 50px;
+       
+    }
+    
+    
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero img:first-child {
+        margin-top: 36px;
+        width: 451px;
+        height: 479px;
+    }
+
+    .cronograma {
+        margin-top: 100px;
+        margin-left: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .cronograma h2:first-child {
+        text-align: center;
+    }
+    
+    .article-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    
+    
+    .article-cont {
+      margin-left: 1em;
+       
+    }
+    
+    .article-content img {
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+        border: 5px solid #92CFD5;
+    }
+    
+   
+     .article-cont h2 {
+        font-family: Solway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    
+    }
+    
+    
+    .redes-sociais {
+        
+        margin-top: 30px;
+    }
+    
+    .redes-sociais li {
+        display: inline;
+    }
+    
+    .redes-sociais a {
+        text-decoration: none;
+    }
+    
+    .redes-sociais img { 
+        width: 2em;
+        height: 2em;
+        border: none;
+        
+    }
+    
+    .article-horario a {
+        margin-left: 10em;
+        margin-top: -1px;
+        width: 120px;
+        height: 30px;
+        }
+    
+
+    .article-horario p {
+        margin-top: 10px;
+        margin-left: 13em;
+    } 
+        
+    footer {
+        background-color: #92CFD5;
+        height: 50px;
+        text-align: center;
+        
+    }
+    
+    footer p {
+       
+        font-size: 0.8em;;
+       
+    }
+
+
+
+}
