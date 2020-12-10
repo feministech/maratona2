@@ -90,6 +90,21 @@ main {
     margin-top: 15px;
 }
 
+.conduta {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7B7575;
+    margin-top: 15px;
+}
+
+.conduta a {
+    color: #92CFD5;
+    text-decoration: none;
+}
+
 .botao-assista {
     display: inline-block;
     width: 170px;
@@ -371,4 +386,94 @@ footer p {
 
 
 
+}
+
+/* Código de Conduta */
+
+.main-conduta {
+    margin-left: 50px;
+}
+
+.hero-conduta h1 { 
+    font-family: 'Solway', serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #92CFD5;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.hero-conduta h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42px;
+    color: #928F8F;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.hero-conduta h3 {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #928F8F;
+    margin-top: 5px;
+}
+
+.texto-codigo h1 {
+    font-family: 'Solway', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 58px;
+    color: #92CFD5;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.texto-codigo p {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 21px;
+    color:#333333;
+    margin-top: 5px;
+}
+
+.texto-codigo ul {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 21px;
+    color: #928F8F;
+    margin-top: 5px;
+    list-style-type: circle;
+}
+
+.texto-codigo li {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 21px;
+    color: #928F8F;
+    margin-top: 5px;
+    margin-left: 50px;
+   
+}
+
+
+.referencia-codigo {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.referencia-codigo a {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 21px;
+    color: #928F8F;
+    margin-top: 5px;
+    margin-left: 50px;
+   
 }
